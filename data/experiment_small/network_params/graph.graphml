@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="Orange County" />
+    <node id="Los Angeles" />
+    <node id="Alta Bates" />
+    <node id="Oakland" />
+    <edge source="Orange County" target="Orange County">
+      <data key="d0">0.0</data>
+    </edge>
+    <edge source="Orange County" target="Los Angeles">
+      <data key="d0">35.4</data>
+    </edge>
+    <edge source="Orange County" target="Alta Bates">
+      <data key="d0">403.0</data>
+    </edge>
+    <edge source="Orange County" target="Oakland">
+      <data key="d0">403.0</data>
+    </edge>
+    <edge source="Los Angeles" target="Los Angeles">
+      <data key="d0">0.0</data>
+    </edge>
+    <edge source="Los Angeles" target="Alta Bates">
+      <data key="d0">370.0</data>
+    </edge>
+    <edge source="Los Angeles" target="Oakland">
+      <data key="d0">370.0</data>
+    </edge>
+    <edge source="Alta Bates" target="Alta Bates">
+      <data key="d0">0.0</data>
+    </edge>
+    <edge source="Alta Bates" target="Oakland">
+      <data key="d0">1.4</data>
+    </edge>
+    <edge source="Oakland" target="Oakland">
+      <data key="d0">0.0</data>
+    </edge>
+  </graph>
+</graphml>
